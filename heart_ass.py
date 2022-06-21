@@ -203,6 +203,17 @@ print(best_model.best_params_)
 
 
 
+#%% Model analysis
+
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+
+y_true = y_test
+y_pred = best_model.predict(X_test)
+
+print(classification_report(y_true, y_pred))
+print(confusion_matrix(y_true, y_pred))
+print(accuracy_score(y_true, y_pred))
+
 
 #%% MODEL SAVING
 
@@ -214,16 +225,6 @@ with open(PKL_PATH,'wb') as file:
     pickle.dump(best_model,file) #to be load in deploy
 
 
-#%% Model analysis
-
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-
-y_true = y_test
-y_pred = best_model.predict(X_test)
-
-print(classification_report(y_true, y_pred))
-print(confusion_matrix(y_true, y_pred))
-print(accuracy_score(y_true, y_pred))
 
 
 
