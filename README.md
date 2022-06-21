@@ -1,9 +1,14 @@
 # Assignment for Heart Attack Prediction using Heart.csv dataset.
 
 ### EDA 
-##First step Data Loading
+1) Data Loading
+2) Data Inspection
+3) Data Cleaning
+4) Features Selection
+5) Preprocessing
 
-
+### Pipeline
+### Model Evaluation
 
 
 
