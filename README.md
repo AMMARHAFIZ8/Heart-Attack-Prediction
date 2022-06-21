@@ -8,7 +8,16 @@
 5) Preprocessing
 
 ### Pipeline
+
 ### Model Evaluation
+The best pipeline for this heart dataset is Pipeline(steps=[('mmsscaler', MinMaxScaler()),('rf', RandomForestClassifier())]) with accuracy of 0.78
+
+### Tuning
+
+### Model Analysis
+Accuracy score = 0.7252747252747253
+
+### Model Saving
 
 
 
@@ -44,10 +53,6 @@ thalachh
 ### categorical = 'sex', 'cp', 'fbs', 'restecg', 'exng', 'slp', 'caa', 'thall', 'output'.
 ### continuous = 'age', 'trtbps', 'chol', 'thalachh', 'oldpeak'.
 
-## Discussion
-
-#### The best pipeline for this heart dataset is Pipeline(steps=[('mmsscaler', MinMaxScaler()),('rf', RandomForestClassifier())]) with accuracy of 0.7802197802197802
-#### With the accuracy score of 0.7472527472527473
 
 
 #### Model Deployment 
