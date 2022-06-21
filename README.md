@@ -1,2 +1,2 @@
-# heart_assignment
+# Assignment for Heart Attack Prediction using Heart.csv dataset.
  
