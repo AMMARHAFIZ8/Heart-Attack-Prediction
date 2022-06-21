@@ -76,7 +76,7 @@ for con in continuous:
     plt.show()
 
 # Step 3 Data Cleaning
-
+# Got no Nan
 
 #drop duplicated data 
 df = df.drop_duplicates()
@@ -204,7 +204,7 @@ print(best_model.best_params_)
 
 
 
-#%% model saving
+#%% MODEL SAVING
 
 
 PKL_PATH = os.path.join(os.getcwd(),'best_pipeline.pkl')
