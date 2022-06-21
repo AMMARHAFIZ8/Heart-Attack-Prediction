@@ -24,7 +24,7 @@ with st.form("Patient's info"):
     
     thalach = int(st.number_input('Your maximum heart rate achieved : '))
     oldpeak = int(st.number_input('Key in your Previous peak : '))
-    thalassemia = int(st.radio(' Tick if  you hv Thalassemia : ',(0,1,2,3)))
+    thalassemia = int(st.radio(' Tick if  you have Thalassemia : ',(0,1,2,3)))
     
     submitted = st.form_submit_button("Submit")
     if submitted:
