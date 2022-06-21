@@ -175,7 +175,8 @@ for i,model in enumerate(pipelines):
         best_accuracy = model.score(X_test,y_test)
         best_pipeline = model
   
-print('The best pipeline for this heart dataset is {} with accuracy of {}'.format(best_pipeline, best_accuracy))
+print('The best pipeline for this heart dataset for predicting heart attack is {} with accuracy of {}'.
+      format(best_pipeline, best_accuracy))
 
 
 #%% This is to fine tune the model
@@ -210,7 +211,7 @@ PKL_PATH = os.path.join(os.getcwd(),'best_pipeline.pkl')
 
 
 with open(PKL_PATH,'wb') as file:
-    pickle.dump(best_model,file)
+    pickle.dump(best_model,file) #to be load in deploy
 
 
 #%% Model analysis

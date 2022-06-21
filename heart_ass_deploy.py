@@ -19,7 +19,7 @@ with open(MODEL_PATH,'rb') as file:
 # outcome_dict[outcome[0]]
 with st.form("Patient's info"):
     st.title('Beware of Heart Attack!')
-    st.write("This app is to predict chance of a person having heart attack")
+    st.write("This app is to predict chances of a person having heart attack")
     st.image("https://i.kym-cdn.com/photos/images/newsfeed/000/839/183/409.png",width=600)
     
     thalach = int(st.number_input('Your maximum heart rate achieved : '))
