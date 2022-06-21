@@ -1,5 +1,12 @@
 # Assignment for Heart Attack Prediction using Heart.csv dataset.
 
+### EDA 
+First step Data Loading
+
+
+
+
+
 Boxplot
 
 ![Alt text](https://github.com/AMMARHAFIZ8/heart_assignment/blob/main/Figure%202022-06-21%20192108%20boxplot.png)
